@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"tpo",
+				"topic-law"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"jar",
+				"jarpServices"
+			],
+			[
+				"$rou",
+				"$routeParams	AngularJS"
+			],
+			[
+				"modu",
+				"verbose_module	AngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sy ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/arvind/Sites/prototype-jade-foundation"
+	],
+	"file_history":
+	[
+		"/Users/arvind/Desktop/new/README.md",
+		"/Users/arvind/Desktop/libsass/test/bower_components/bourbon/dist/helpers/_linear-angle-parser.scss",
+		"/Users/arvind/Desktop/libsass/test/scss/app.scss",
+		"/Users/arvind/Desktop/zf5/Gruntfile.js",
+		"/Users/arvind/Sites/prototype-alis/jade/questionnaire.jade",
+		"/Users/arvind/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/arvind/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/arvind/Sites/prototype-alis/jade/informationpage.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/index2.jade",
+		"/Users/arvind/Sites/prototype-alis/assets/scss/app.scss",
+		"/Users/arvind/Sites/prototype-alis/jade/topics.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/section.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/includes/filter-resource.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/includes/filter.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/includes/topbar.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/index.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/for-service-providers.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/myths.jade",
+		"/Users/arvind/Sites/prototype-alis/jade/common-questions.jade",
+		"/Users/arvind/Sites/prototype-alis/common-questions.html",
+		"/Users/arvind/Sites/prototype-alis/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/Users/arvind/Sites/prototype-alis/assets/hbs/timeline-question.hbs",
+		"/Users/arvind/Sites/prototype-alis/Gruntfile.js",
+		"/Users/arvind/Sites/prototype-alis/assets/js/app.js",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/templates/tab-friends.html",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/templates/friend-detail.html",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/data/menu.json",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/js/app.js",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/js/services.js",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/index.html",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/templates/tabs.html",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/www/templates/tab-account.html",
+		"/Users/arvind/Library/Application Support/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/arvind/Sites/jarvins-pizza/jarvins-pizza/node_modules/bower/node_modules/bower-registry-client/node_modules/request/tests/test-oauth.js",
+		"/Users/arvind/Library/Application Support/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/Users/arvind/Sites/mongoui/config.json",
+		"/Users/arvind/Sites/mukeive/app/scripts/services/albumfactory.js",
+		"/Users/arvind/Sites/mukeive/app/views/musicAlbumDetails.html",
+		"/Users/arvind/Sites/mukeive/app/views/musicAlbums.html",
+		"/Users/arvind/Sites/mukeive/app/scripts/controllers/MusicAlbumsCtrl.js",
+		"/Users/arvind/Sites/mukeive/app/scripts/controllers/main.js",
+		"/Users/arvind/Sites/mukeive/package.json",
+		"/Users/arvind/Sites/mukeive/bower.json",
+		"/Users/arvind/Sites/mukeive/app/scripts/app.js",
+		"/Users/arvind/Desktop/AngularJSDemos.zip",
+		"/Users/arvind/Desktop/AngularJSDemos/AngularJSDemos/CustomerManagementApp.html",
+		"/Users/arvind/Desktop/AngularJSDemos/AngularJSDemos/app/services/customersService.js",
+		"/Users/arvind/Sites/mukeive/app/index.html",
+		"/Users/arvind/Sites/mukeive/Gruntfile.js",
+		"/Users/arvind/Sites/mukeive/app/views/main.html",
+		"/Users/arvind/Sites/mukeive/app/views/myroute.html",
+		"/Users/arvind/Sites/mukeive/app/views/about.html",
+		"/Users/arvind/Sites/angularjs-book/chapter4/guthub/app/views/recipeForm.html",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/scss/modules/pharseology.scss",
+		"/Users/arvind/Sites/archer/.htaccess",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/.gitignore",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/jade/index.jade",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/jade/includes/footer.jade",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/jade/includes/topbar.jade",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/archer.info",
+		"/Users/arvind/Sites/archer/sites/all/themes/archer/templates/page.tpl.php",
+		"/Users/arvind/Sites/archer/sites/default/default.settings.php",
+		"/Users/arvind/Sites/archer/sites/default/settings.php",
+		"/Users/arvind/Sites/archer/modules/help/help.css",
+		"/Users/arvind/Sites/archer/sites/example.sites.php",
+		"/Users/arvind/Sites/archer/CHANGELOG.txt",
+		"/Users/arvind/Sites/archer/install.php",
+		"/Users/arvind/Sites/archer/index.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"retina",
+			"steps",
+			"Conver",
+			"16px",
+			"50px",
+			"steps",
+			"WHAT",
+			"topics",
+			"topic-lawtopic",
+			"topic-law",
+			"topbar",
+			"resource",
+			"Couples - Before Moving In Together",
+			"Common Questions<",
+			"#tab-questions",
+			"tabs-questions",
+			"#tabs-questions",
+			"#tab-questions",
+			"Couples",
+			"quesiton",
+			"tab",
+			"tabs",
+			"Common Question",
+			"top-bar",
+			"header",
+			"contents",
+			"table",
+			"quest",
+			"header",
+			"timeline-content",
+			"Law",
+			"dash",
+			"images",
+			"port",
+			"albumfactory",
+			"KAM",
+			"CWD",
+			"recipes",
+			" *     ",
+			"left",
+			"18"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "prototype-jade-foundation.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"commo",
+				"jade/common-questions.jade"
+			],
+			[
+				"com",
+				"common-questions.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
