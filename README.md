@@ -1,1 +1,4 @@
-# Prototyping using Zurb Foundation and Jade-Lang with the help of grunt 
+<h1>Prototyping Using Jade and Foundation</h1>
+
+<h2>Usage</h2>
+
