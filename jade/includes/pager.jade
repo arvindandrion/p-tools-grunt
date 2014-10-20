@@ -1,0 +1,12 @@
+ul.pagination(role="menubar")
+  li.arrow.unavailable
+    a Previous
+  li.current
+    a 1
+
+  each val in [2, 3, 4, 5, 6, 7, 8]
+    li
+      a= val
+
+  li.arrow.unavailable
+    a Next

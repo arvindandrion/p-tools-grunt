@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import "bourbon";
 
 // Or selectively include components
 // @import
@@ -38,3 +39,6 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+.button {
+  @include button;
+}

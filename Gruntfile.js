@@ -4,7 +4,10 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        includePaths: ['bower_components/foundation/scss']
+        includePaths: [
+          'bower_components/foundation/scss',
+          require('node-bourbon').includePaths
+        ]
       },
       dist: {
         options: {
@@ -12,7 +15,18 @@ module.exports = function(grunt) {
         },
         files: {
           'css/app.css': 'scss/app.scss'
-        }        
+        }
+      }
+    },
+
+    jade: {
+      options: {
+        pretty: true
+      },
+      compile: {
+        files: {
+          "index.html": ["jade/index.jade"],
+        }
       }
     },
 
@@ -22,13 +36,19 @@ module.exports = function(grunt) {
       sass: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
+      },
+
+      jade: {
+        files: 'jade/*.jade',
+        tasks: ['jade']
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-jade');
 
-  grunt.registerTask('build', ['sass']);
+  grunt.registerTask('build', ['sass', 'jade']);
   grunt.registerTask('default', ['build','watch']);
 }
