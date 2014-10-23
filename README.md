@@ -8,10 +8,4 @@
 <p>Cd to prototype-jade-foundation</p>
 <pre><code>cd prototype-jade-foundation</code></pre>
 
-<p>Install <code>node_modules</code>. if it throw error try sudo</p>
-<pre><code>npm install or sudo npm install</code></pre>
 
-<p>Install <code>bower components</code></p>
-<pre><code>bower install</code></pre>
-
-<p>Run <code>grunt</code> your good to go, start prototyping.</p> 
