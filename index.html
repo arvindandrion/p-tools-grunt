@@ -1,2 +1,229 @@
-
-<p>welcome arvind</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRIS</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css">
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body class="home">         
+    <div class="content">
+      <div class="large-2 columns">
+        <ul class="panel side-nav">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Employees</a>
+            <ul>
+              <li><a href="#">All Company</a></li>
+              <li><a href="#">Marketing Dept</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Payroll</a></li>
+          <li><a href="#">Reports</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+      <div class="large-10 columns">
+        <dl data-tab class="tabs">
+          <dd><a href="#personal">Personal</a></dd>
+          <dd><a href="#leaves">Leaves</a></dd>
+          <dd><a href="#wages">Wages</a></dd>
+          <dd><a href="#documents">Documents </a></dd>
+          <dd class="active"><a href="#dependants">Dependants</a></dd>
+          <dd><a href="#work">Work Assignment</a></dd>
+        </dl>
+        <div class="tabs-content"> 
+          <div id="personal" class="content">
+            <form>
+              <div class="large-10 columns">
+                <div class="row">
+                  <large-12 class="columns">
+                    <h3>Masour AlMansouri</h3>
+                  </large-12>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Emplode Code</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Personal ID</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Employee Bank</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">IBAN/Account *</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Nationality</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Religion</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Address</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Dte of Birth</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Effective Date 22/07/2010 2yeas and 6 months</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label class="left inline">Ending Date</label>
+                  </div>
+                </div>
+              </div>
+              <div class="large-2 columns row-padding-10">
+                <div class="row">
+                  <div class="large-12 columns"><img src="images/icon-user.png"></div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns text-center">
+                    <button class="button tiny">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="leaves" class="content"></div>
+          <div id="wages" class="content"></div>
+          <div id="dependants" class="content active">
+            <div class="row">
+              <div class="large-10 columns">
+                <h3>Masour AlMansouri</h3>
+              </div>
+              <div class="large-2 columns">
+                <button class="button tiny">Edit</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <table class="large-12 table-display">
+                  <tr>
+                    <th>Name</th>
+                    <th>Relationship</th>
+                    <th>Gender</th>
+                    <th>Nationality</th>
+                    <th>Date of Birth</th>
+                    <th>Age</th>
+                    <th>Contact Info</th>
+                  </tr>
+                  <tr>
+                    <td colspan="7">
+                      <h4>No entries</h4>
+                    </td>
+                  </tr>
+                </table>
+                <table class="large-12 table-edit">
+                  <tr>
+                    <th>Name</th>
+                    <th>Relationship</th>
+                    <th>Gender</th>
+                    <th>Nationality</th>
+                    <th>Date of Birth</th>
+                    <th>Age</th>
+                    <th>Contact Info</th>
+                    <th> </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="text">
+                    </td>
+                    <td>
+                      <select>
+                        <option>Spouse</option>
+                        <option>Cousin</option>
+                        <option>Brother</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                      </select>
+                    </td>
+                    <td>
+                      <select>
+                        <option>Canadian</option>
+                        <option>UAE</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input type="text" class="datepicker">
+                    </td>
+                    <td>
+                      <select class="age">
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                        <option>45</option>
+                        <option>46</option>
+                        <option>47</option>
+                        <option>48</option>
+                        <option>49</option>
+                      </select>
+                    </td>
+                    <td>
+                      <input type="number">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div id="work" class="content"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="js/app.js"></script>
+</html>
