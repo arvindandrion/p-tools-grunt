@@ -1,1 +1,61 @@
-p welcome arvind
+doctype html
+html(lang="en")
+  head
+    include ./includes/head.jade
+  body.home          
+    //- include ./includes/topbar.jade
+    .content
+      .large-2.columns
+        
+        ul.panel.side-nav
+            li
+              a(href="#") Dashboard
+            li
+              a(href="#") Employees
+              ul
+                li
+                  a(href="#") All Company
+                li
+                  a(href="#") Marketing Dept
+            li
+              a(href="#") Payroll
+            li
+              a(href="#") Reports
+            li
+              a(href="#") Settings
+
+
+      .large-10.columns
+        dl.tabs(data-tab)
+
+          dd
+            a(href="#personal") Personal
+          dd
+            a(href="#leaves") Leaves
+          dd
+            a(href="#wages") Wages
+          dd
+            a(href="#documents") Documents 
+          dd.active
+            a(href="#dependants") Dependants
+          dd
+            a(href="#work") Work Assignment
+
+
+        .tabs-content 
+          #personal.content
+            include ./includes/tabs/tabs-personal.jade
+          #leaves.content
+            include ./includes/tabs/tabs-leaves.jade
+          #wages.content
+            include ./includes/tabs/tabs-wages.jade
+          #dependants.content.active
+            include ./includes/tabs/tabs-dependants.jade
+          #work.content
+            include ./includes/tabs/tabs-work.jade
+
+
+
+     
+  include ./includes/footer.jade 
+  include ./includes/scripts.jade

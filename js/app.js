@@ -1,1 +1,4 @@
-$(document).foundation();
+$(function() {
+	$(document).foundation();
+    $( ".datepicker" ).datepicker();
+  });

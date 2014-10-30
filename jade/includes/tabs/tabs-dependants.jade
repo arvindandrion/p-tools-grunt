@@ -1,0 +1,70 @@
+.row
+  .large-10.columns
+    h3 Masour AlMansouri
+  .large-2.columns
+    button.button.tiny Edit
+
+.row
+  .large-12.columns
+
+    table.large-12.table-display
+      tr
+        th Name
+        th Relationship
+        th Gender
+        th Nationality
+        th Date of Birth
+        th Age
+        th Contact Info
+      tr
+        td(colspan="7")
+          h4 No entries
+
+    table.large-12.table-edit
+      tr
+        th Name
+        th Relationship
+        th Gender
+        th Nationality
+        th Date of Birth
+        th Age
+        th Contact Info
+        th 
+      tr
+        td
+          input(type="text")
+        td
+          select
+            option Spouse
+            option Cousin
+            option Brother
+        td
+          select
+            option Male
+            option Female
+        td
+          select
+            option Canadian
+            option UAE
+        td
+          input.datepicker(type="text")
+        td
+          -var n = 16
+          select.age
+            while n < 50 
+              option=  n++ 
+        td
+          input(type="number")
+
+
+
+
+
+
+
+
+
+
+
+
+

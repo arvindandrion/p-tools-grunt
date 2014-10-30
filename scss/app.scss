@@ -39,6 +39,34 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-.button {
-  @include button;
+
+.content{
+	margin:10px auto;
 }
+
+//tabs
+.tabs a{
+	outline:none;
+}
+.tabs-content{
+	border:1px solid #d7d7d7;
+}
+
+//sidenav
+.side-nav ul{
+	margin-left:0;
+	list-style-type: none;
+
+	li a{padding-left:30px!important;}
+}
+
+//padding
+.row-padding-10 .row{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+//age
+.age{width:50px;}
+
+
